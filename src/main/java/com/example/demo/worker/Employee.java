@@ -3,7 +3,6 @@ package com.example.demo.worker;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.UUID;
 
 @Entity
 @Table(name = "employee1")
@@ -17,57 +16,54 @@ public class Employee {
     private Integer price;
     private String category;
 
-    public Employee(){
-
+    public Employee() {
     }
 
-    public Long getId(){
+    public Long getId() {
         return id;
     }
-    public void setId(Long id){
+
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getFirstName(){
+    public String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName){
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(){
+    public void setLastName() {
         this.lastName = lastName;
     }
 
-    public Integer getAmount(){
+    public Integer getAmount() {
         return amount;
     }
 
-    public void setAmount(){
+    public void setAmount() {
         this.amount = amount;
     }
 
-    public Integer getPrice(){
+    public Integer getPrice() {
         return price;
     }
 
-    public void setPrice(){
+    public void setPrice() {
         this.price = price;
     }
 
-    public String getCategory(){
+    public String getCategory() {
         return category;
     }
 
-    public void setCategory(){
+    public void setCategory() {
         this.category = category;
     }
-
-
-
 }

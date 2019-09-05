@@ -25,11 +25,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-freemarker'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
-//    developmentOnly 'org.springframework.boot:spring-boot-devtools'
-//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile('org.flywaydb:flyway-core')
-//    compile('org.springframework.boot:spring-boot-starter-jdbc')
-//    compile('org.springframework.boot:spring-boot-starter-web')
     runtimeOnly("org.postgresql:postgresql")
-//    runtime group: 'org.flywaydb', name: 'flyway-gradle-plugin', version: '3.0'
+    compileOnly('org.projectlombok:lombok')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+    testCompile('org.mockito:mockito-junit-jupiter:2.23.0')
 }
