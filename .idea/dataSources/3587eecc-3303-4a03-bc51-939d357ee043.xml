@@ -131,18 +131,29 @@
       <HandlerId>335</HandlerId>
       <Type>index</Type>
     </access-method>
-    <sequence id="25" parent="18" name="employee1_id_seq">
+    <sequence id="25" parent="18" name="category_id_seq">
+      <ObjectId>16416</ObjectId>
+      <StateNumber>578</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="26" parent="18" name="employee1_id_seq">
       <ObjectId>16405</ObjectId>
       <StateNumber>575</StateNumber>
       <SequenceIdentity>1..2147483647</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>integer</DataType>
     </sequence>
-    <table id="26" parent="18" name="employee1">
+    <table id="27" parent="18" name="category">
+      <ObjectId>16418</ObjectId>
+      <StateNumber>578</StateNumber>
+    </table>
+    <table id="28" parent="18" name="employee1">
       <ObjectId>16407</ObjectId>
       <StateNumber>575</StateNumber>
     </table>
-    <table id="27" parent="18" name="flyway_schema_history">
+    <table id="29" parent="18" name="flyway_schema_history">
       <ObjectId>16395</ObjectId>
       <StateNumber>574</StateNumber>
     </table>

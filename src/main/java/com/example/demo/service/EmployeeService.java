@@ -2,14 +2,12 @@ package com.example.demo.service;
 
 import com.example.demo.repository.EmployeeRepository;
 import com.example.demo.worker.Employee;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Optional;
 
 @Service
-@RequiredArgsConstructor
 public class EmployeeService {
 
     public final EmployeeRepository employeeRepository;
